@@ -1,0 +1,594 @@
+*{
+    box-sizing: border-box;
+}
+
+#navbar{
+    position: sticky;
+    top: 0;
+    background-color:rgb(255, 255, 255) ;
+}
+
+body{
+    letter-spacing: 0.5px;
+}
+#top_nav{
+    display: flex;
+    align-items: center;
+    width: 88%;
+    height: 70px;
+    justify-content: space-between;
+    margin: auto;
+}
+
+#nav_left{
+    display: flex;
+    width: 43%;
+    height: 100%;
+    justify-content: space-between;
+    align-items:center ;  
+}
+
+.feather{
+    margin-right: 5px;
+}
+
+#nav_right{
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    width: 56%;
+    height:55px;
+}
+
+.p_text{
+    color: #403e47;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    height: 13px;
+    align-items: center;
+    margin: 0%;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 20px;
+    font-family:-apple-system, "Helvetica Neue", sans-serif, "Mier Book";
+    letter-spacing: 0.5px;
+}
+
+#md_inputBox{
+    display: flex;
+    align-items: center;
+    border: 1px solid #a6a6a6; 
+    width: 400px;
+    height: 50px;
+    border-radius: 4px;
+    padding: 0 0 0 10px;
+}
+
+#nav_input{
+    outline: none;
+    width: 85%;
+    border: none;
+    margin: 0;
+    padding-left: 6px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    font-family:-apple-system, "Helvetica Neue", sans-serif, "Mier Book";
+    letter-spacing: 0.05px;
+}
+
+#top_nav a{
+    text-decoration: none;
+    color: #49454d;
+}
+
+#md_profile{
+    width: 70px;
+    height: 50px;
+    text-align: center;
+}
+
+.vline{
+    background-color: #dfdfdf;
+    width: 2px;
+    height: 40px;
+}
+
+.mobile_svg{
+    height: 20px;
+    width: 20px;
+    margin-right: 8px;
+}
+
+#mobile_top{
+    width: 50px; 
+}
+
+.nav_option,#nav_inpu{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    font-family:-apple-system, "Helvetica Neue", sans-serif, "Mier Book";
+    letter-spacing: 0.5px;
+}
+
+#nav_right div:nth-child(1) a{
+   display: flex;
+}
+
+.options{
+    margin-left: 24px;
+    margin-right: 24px;
+    height: 90%;
+    text-align: center;
+}
+
+#nav_right div:nth-child(1), #nav_right div:nth-child(3){
+ display: flex;
+ align-items: center;
+}
+
+::-webkit-input-placeholder{
+    color:#a49ca1 ;
+}
+
+#play_store{
+    display: none;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    flex-direction: column;
+    box-sizing: border-box;
+    height: 180px;
+    width: 212px;
+    font-size: 18px;
+    font-family:-apple-system, "Helvetica Neue", sans-serif, "Mier Book" ;
+    top: 60px;
+    right: 390px;
+    color: black;
+    border: 1px solid rgb(240, 240, 240);
+    box-shadow: rgb(34 34 34 / 12%) 0px 2px 4px, rgb(34 34 34 / 12%) 0px 0px 1px;
+    background:rgb(255, 255, 255);
+}
+
+#play_store a{
+    display: flex;
+    height: 45px;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+}
+
+#play_store img{
+    height: 100%;
+    width: 100%;
+}
+
+
+#play_store a:nth-child(3) img{
+    margin-top: 15px;
+}
+
+#option_1:hover  #play_store {
+    display: flex;
+}
+
+#option_1:hover  .nav_option1,#option_1:hover .mobile_svg2  {
+    color: #f43397;
+    fill:#f43397;
+}
+
+#hover_cart{   
+    display: none;
+    font-family:-apple-system, "Helvetica Neue", sans-serif, "Mier Book";
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    flex-direction: column;
+    box-sizing: border-box;
+    height: 205px;
+    width: 250px;
+    top: 60px;
+    right: 30px;
+    border: 1px solid rgb(240, 240, 240);
+    box-shadow: rgb(34 34 34 / 12%) 0px 2px 4px, rgb(34 34 34 / 12%) 0px 0px 1px;
+    background:rgb(255, 255, 255);
+    padding: 12px;
+}
+
+#hover_cart p{
+    font-size: 13px;
+}
+
+#my_orders{
+    display: flex;
+    height: 40px;
+    width: 65%;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+#sign_up_button{
+    background-color:#f43397;
+    border: none;
+    font-family:-apple-system, "Helvetica Neue", sans-serif, "Mier Book";
+    border-radius: 8px;
+    width: 100%;
+    height:48px;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600;
+    color:white;
+    cursor: pointer;
+}
+.span{
+    font-size: 18px;
+}
+
+#my_profile:hover #hover_cart{
+    display: flex;
+}
+
+#my_profile:hover  .profile_text,#my_profile:hover .profile_svg  {
+    color: #f43397;
+    fill:#f43397;
+}
+.h_line{
+    width: 100%;
+    height: 1px;
+    background-color:#e3e3e3 ;
+}
+
+
+/* --------------------navbar-2 --------------------- */
+
+
+
+*{
+    margin: 0px;
+}
+#nav_2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 88%;
+    height:60px;
+    margin: auto;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 20px;
+    font-family:-apple-system, "Helvetica Neue", sans-serif, "Mier Book";
+    letter-spacing: 0.5px;
+    color: #403e47;
+}
+
+#nav_2 span{
+    cursor: pointer;
+
+}
+
+.heading{
+    color: 
+    #515151;
+}
+
+#women_ethnic{
+    position: absolute;
+    top: 130px;
+    display: none;
+    justify-content:left;
+    width: 89%;
+    left: 88px;
+    height:310px ;
+    box-sizing: border-box;
+    border: 1px solid rgb(240, 240, 240);
+    box-shadow: rgb(34 34 34 / 12%) 0px 2px 4px, rgb(34 34 34 / 12%) 0px 0px 1px;
+    background:rgb(255, 255, 255);
+}
+
+.women_ethnic_options{
+    display: flex;
+    min-width: 7%;
+    flex-direction: column;
+    margin-top :20px;
+    color: rgb(102,102,102);
+    padding:0 17px 0 17px;
+}
+
+.women_ethnic_options *{
+    width: 100%;
+    height: 35px;  
+}
+
+.women_ethnic_options>span:nth-child(1){
+    color: #f43397;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+#hover_1:hover #women_ethnic{
+    display: flex;
+}
+
+#hover_1:hover{
+    border-bottom: 3px solid #f43397;
+    padding-top: 18px;
+
+}
+#hover_1:hover #option_1{
+    color: #f43397;
+    
+}
+
+#nav_2>div{
+    height: 100%;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+#option_1,#option_2,#option_3,#option_4,#option_5,#option_6,#option_7,#option_8,#option_9{
+    color: black
+}
+
+#women_western{
+    position: absolute;
+    top: 130px;
+    left: 88px;
+    display: none;
+    justify-content:left;
+    width: 89%;
+    height:220px ;
+    box-sizing: border-box;
+    border: 1px solid rgb(240, 240, 240);
+    box-shadow: rgb(34 34 34 / 12%) 0px 2px 4px, rgb(34 34 34 / 12%) 0px 0px 1px;
+    background:rgb(255, 255, 255);
+}
+
+#hover_2:hover #women_western{
+    display: flex;
+}
+
+#hover_2:hover{
+    border-bottom: 3px solid #f43397;
+    padding-top: 18px;
+
+}
+
+#hover_2:hover #option_2{
+    color: #f43397;   
+}
+
+.women_western_options{
+    min-width:7.5%;
+    max-width: 10%;
+}
+
+#jewellery{
+    position: absolute;
+    top: 130px;
+    left: 88px;
+    display: none;
+    justify-content:left;
+    width: 89%;
+    height:320px ;
+    box-sizing: border-box;
+    border: 1px solid rgb(240, 240, 240);
+    box-shadow: rgb(34 34 34 / 12%) 0px 2px 4px, rgb(34 34 34 / 12%) 0px 0px 1px;
+    background:rgb(255, 255, 255);
+}
+
+#hover_3:hover #jewellery{
+    display: flex;
+}
+
+#hover_3:hover{
+    border-bottom: 3px solid #f43397;
+    padding-top: 18px;
+}
+
+#hover_3:hover #option_3{
+    color: #f43397;
+}
+
+.jewellery_options{
+    min-width:8%;
+}
+
+#men{
+    position: absolute;
+    top: 130px;
+    left: 88px;
+    display: none;
+    justify-content:left;
+    width: 89%;
+    height:290px ;
+    box-sizing: border-box;
+    border: 1px solid rgb(240, 240, 240);
+    box-shadow: rgb(34 34 34 / 12%) 0px 2px 4px, rgb(34 34 34 / 12%) 0px 0px 1px;
+    background:rgb(255, 255, 255);
+}
+
+#hover_4:hover #men{
+    display: flex;
+}
+
+#hover_4:hover{
+    border-bottom: 3px solid #f43397;
+    padding-top: 18px;
+}
+
+#hover_4:hover #option_4{
+    color: #f43397;  
+}
+
+.men_options{
+    min-width:8%;
+}
+
+#men div:nth-child(even),#jewellery div:nth-child(even),#women_ethnic div:nth-child(even),#women_western div:nth-child(even),#kids div:nth-child(even),#electronics div:nth-child(even),#beauty div:nth-child(even),#home_kitchen div:nth-child(even),#bags div:nth-child(even){
+    background-color: #f9f9f9;
+}
+
+#beauty{
+    position: absolute;
+    top: 130px;
+    left: 88px;
+    display: none;
+    justify-content:left;
+    width: 89%;
+    height:200px ;
+    box-sizing: border-box;
+    border: 1px solid rgb(240, 240, 240);
+    box-shadow: rgb(34 34 34 / 12%) 0px 2px 4px, rgb(34 34 34 / 12%) 0px 0px 1px;
+    background:rgb(255, 255, 255);
+}
+
+#hover_5:hover #beauty{
+    display: flex;
+}
+
+#hover_5:hover{
+    border-bottom: 3px solid #f43397;
+    padding-top: 18px;
+}
+
+#hover_5:hover #option_5{
+    color: #f43397;    
+}
+
+.beauty_options{
+    min-width:6%;
+}
+
+#bags{
+    position: absolute;
+    top: 130px;
+    left: 88px;
+    display: none;
+    justify-content:left;
+    width: 89%;
+    height:190px ;
+    box-sizing: border-box;
+    border: 1px solid rgb(240, 240, 240);
+    box-shadow: rgb(34 34 34 / 12%) 0px 2px 4px, rgb(34 34 34 / 12%) 0px 0px 1px;
+    background:rgb(255, 255, 255);
+}
+
+#hover_6:hover #bags{
+    display: flex;
+}
+
+#hover_6:hover{
+    border-bottom: 3px solid #f43397;
+    padding-top: 18px;
+}
+#hover_6:hover #option_6{
+    color: #f43397;   
+}
+
+.bags_options{
+    min-width:8%;
+}
+
+#home_kitchen{
+    position: absolute;
+    top: 130px;
+    left: 88px;
+    display: none;
+    justify-content:left;
+    width: 89%;
+    height:230px ;
+    box-sizing: border-box;
+    border: 1px solid rgb(240, 240, 240);
+    box-shadow: rgb(34 34 34 / 12%) 0px 2px 4px, rgb(34 34 34 / 12%) 0px 0px 1px;
+    background:rgb(255, 255, 255);
+}
+
+#hover_7:hover #home_kitchen{
+    display: flex;
+}
+
+#hover_7:hover{
+    border-bottom: 3px solid #f43397;
+    padding-top: 18px;
+}
+
+#hover_7:hover #option_7{
+    color: #f43397;   
+}
+
+.home_options{
+    min-width:8%;
+}
+
+#kids{
+    position: absolute;
+    top: 130px;
+    left:88px;
+    display: none;
+    justify-content:left;
+    width: 89%;
+    height:230px ;
+    box-sizing: border-box;
+    border: 1px solid rgb(240, 240, 240);
+    box-shadow: rgb(34 34 34 / 12%) 0px 2px 4px, rgb(34 34 34 / 12%) 0px 0px 1px;
+    background:rgb(255, 255, 255);
+}
+
+#hover_8:hover #kids{
+    display: flex;
+}
+
+#hover_8:hover{
+    border-bottom: 3px solid #f43397;
+    padding-top: 18px;
+}
+
+#hover_8:hover #option_8{
+    color: #f43397;    
+}
+
+.kids_options{
+    min-width:7%;
+}
+
+#electronics{
+    position: absolute;
+    top: 130px;
+    left: 88px;
+    display: none;
+    justify-content:left;
+    width: 89%;
+    height:200px ;
+    box-sizing: border-box;
+    border: 1px solid rgb(240, 240, 240);
+    box-shadow: rgb(34 34 34 / 12%) 0px 2px 4px, rgb(34 34 34 / 12%) 0px 0px 1px;
+    background:rgb(255, 255, 255);
+}
+
+#hover_9:hover #electronics{
+    display: flex;
+}
+
+#hover_9:hover{
+    border-bottom: 3px solid #f43397;
+    padding-top: 18px;
+
+}
+#hover_9:hover #option_9{
+    color: #f43397;    
+}
+
+.electronics_options{
+    min-width:11%;
+}
+
+.h_line{
+    width: 100%;
+    height: 1px;
+    background-color:#e3e3e3 ;
+}
