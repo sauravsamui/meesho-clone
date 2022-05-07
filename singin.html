@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="singin.css">
+    <script src="https://kit.fontawesome.com/fe76693108.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div>
+    
+    <div id="main">
+         
+
+             <nav id="navbar">
+               <div id="nav_a">
+                 <div class="ab"><img id="img" src="https://www.naspers.com/getmedia/0f4dc6ae-4136-40eb-9599-25422faa9119/Meesho_logo-pink.jpg.aspx?maxsidesize=200" alt="meesho"></div>
+                 <div class="ab" id="cont" >
+                     <div id="isea"><i class="fa-solid fa-magnifying-glass"></i></div>
+                     <div><input type="text" id="topinput" placeholder="Try Saree, Kurti or Search by Product Code"></div>
+                 </div>
+                </div>
+                <div id="nav_b">
+                   <div id="vertical">Download App</div>
+                   <div>Become a Supplier</div>
+                </div>
+             </nav>
+
+         
+             <div id="logcontainer">
+                 <img src="https://images.meesho.com/images/marketing/1648820929975.jpeg" id="image" alt="meesho">
+                 <h6>Sign Up to view your profile</h6>
+                 <div id="ent">
+                     <div id="in">
+                         <p>Country</p>
+                         <p> </p>
+                         <p id="ptag"><span style="font-size: 14px;">IN</span> +91</p><hr/>
+                     </div>
+                     <div id="num">
+                         <label for="true" id="lable">Phone Number</label>
+                         <input type="text" id="bor" maxlength="10" placeholder="Phone Number"><hr/>
+                     </div>
+                   
+                 </div>
+                 <button id="enter"><a href="login.html" id="ida">Send OTP</a></button>
+                 
+                 <div id="tc"><p>
+                     By contibuing, you agree to Meesho's<br>
+                     <a href="">Terms &Conditions</a> and <a href="">Privacy Policy</a>
+                </p></div>
+             </div>
+    
+        
+    </div>
+   </div>
+</body>
+</html>
+
+
+
+
+
+
+
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.7.0/firebase-app.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyDhQ9MSGPnVaO48g_PWgsZHRLAA-x5lYlg",
+      authDomain: "clonemeesho.firebaseapp.com",
+      databaseURL: "https://clonemeesho-default-rtdb.firebaseio.com",
+      projectId: "clonemeesho",
+      storageBucket: "clonemeesho.appspot.com",
+      messagingSenderId: "796220677248",
+      appId: "1:796220677248:web:32ee29649a2b1742259a65"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+
+
+    // import { getDatabase, ref, set, child, get, update, remove } from "https://www.gstatic.com/firebase/9.7.0/firebase-database.js"
+
+    const db = getDatabase();
+
+
+    const number = document.getElementById('').value;
+
+    function validation(){
+           if(number.length>10 || number.length<10){
+               let p =document.createElement('p');
+               p.innerText="Enter a valid number"
+               p.style.color = red;
+           }
+     }
+
+     function registerUser(){
+         const dbref = ref(db);
+        
+     }
+  </script>

@@ -1,0 +1,200 @@
+*, ::before, ::after {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#navbar{
+    height: 80px;
+    width: 100%;
+    margin: auto;
+    /* position: sticky; */
+    /* top: 0; */
+    /* border: 1px solid red; */
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px 5px 20px;
+}
+#nav_a{
+    /* border: 1px solid red; */
+    display: flex;
+    height: 100%;
+    width: 700px;
+}
+#nav_b{
+    /* border: 1px solid red; */
+    display: flex;
+    height: 45px;
+    width: 300px;
+    color: grey;
+    margin-top: 20px;
+}
+#nav_b div{
+    padding: 13px 10px 0 10px;
+}
+#vertical{
+    border-right: 2px solid grey;
+}
+#img{
+    height: 40px;
+    width: 180px;
+    margin-top: 10px;
+}
+.ab{
+    height: 100% ;
+    /* width: 50%; */
+    margin: 5px;
+    color: rgb(244, 51, 151);
+    display: flex;
+}
+#cont{
+    border: 1px solid black;
+    height: 50px;
+    margin-bottom: 4px;
+    border-radius: 4px;
+    padding-top: 5px;
+}
+#isea{
+    height: 90%;
+    width: 40px;
+    /* border: 1px solid black; */
+    color: grey;
+    text-align: center;
+    padding-top: 12px;
+}
+
+#topinput{
+    margin-left: 5px;
+    height: 40px;
+    width: 400px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+
+}
+#con{
+    position: relative;
+    border: 1px solid red;
+}
+#main{
+    position: relative;
+    margin: auto;   
+    /* border: 1px solid red; */
+    height: 900px;
+    width: 100%;
+    background: linear-gradient(rgb(253, 233, 242) 0%, rgb(253, 240, 232) 100%, rgb(253, 240, 232) 100%);
+}
+#logcontainer{
+    /* position: relative; */
+    /* border: 1px solid black; */
+    background-color: white;
+    /* width: 40%;
+    height: 600px; */
+    margin-left: 35%;
+    margin-top: 112px;
+    margin-bottom: 80px;
+    height: 708px;
+    width: 433px;
+    position: relative;
+    border-radius: 8px;
+}
+#image{
+    height: 200px;
+    aspect-ratio: auto 433 / 200;
+    width: 433px;
+    /* border-style: none; */
+    border-radius: 8px 8px 0px 0px;
+}
+h6{
+    margin: 50px 0px 0px 40px;
+    color: rgb(51, 51, 51);
+    /* font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px; */
+    /* font-family: "Mier bold" */
+    font-size: 20px;
+    font-weight: bold;
+    font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book"; 
+}
+#ent{
+    display:flex;
+    margin: 30px 0px 0px 40px;
+}
+#num{
+    height: 60px;
+    width: 240px;
+    /* border: 1px solid red; */
+    /* padding-top: 25px; */
+    margin-left: 10px;
+    
+}
+#in{
+    height: 60px;
+    width: 80px;
+    padding-top: 5px;
+    /* border: 1px solid red; */
+    font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   font-size: 12px;
+   color: grey;
+}
+#ptag{
+    margin-top: 10px;
+    font-size: 18px;
+    color: black;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+   font-weight: 600;    
+}
+hr{
+    color: rgb(185, 184, 184);
+}
+#lable{
+    color:rgb(244, 51, 151); 
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#bor{
+    margin-top: 2px;
+    height: 35px;
+    width: 100%;
+    border: none;
+    border-color: white;
+    text-decoration: none;
+    text-align-last: left;
+    outline: none;
+
+}
+#enter{
+    margin-top: 40px;
+    height: 50px;
+    width: 330px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-left: 40px;
+    color: rgb(255, 255, 255);
+    background: rgb(244, 51, 151);
+    font-size: 18px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: bold;
+    font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book"; 
+       
+}
+#tc{
+   font-size: 12px;
+   font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book"; 
+     color: grey;
+     text-align: center;
+     margin-top: 160px;
+}
+a{
+    text-decoration: none;
+    color:  rgb(244, 51, 151);
+}
+#ida{
+    color: white;
+}
