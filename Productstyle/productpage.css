@@ -42,14 +42,3 @@
     border-radius: 15px;
     color: white
 }
-#navbar{
-  
-    margin: auto;
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 50px;
-    padding: 10px;
-    background-color: aqua;
-    color: white;
-    cursor: pointer;
-}

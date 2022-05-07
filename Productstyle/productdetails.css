@@ -118,16 +118,8 @@
     text-decoration-style: dashed;
    
 }
-#navbar{
-    margin: auto;
-    margin-bottom: 50px;
-    padding: 10px;
-    background-color: aqua;
-    color: white;
-    cursor: pointer;
-    display: flex;
-    justify-content: space-evenly;
-}
+
+
 #sold{
     margin-top: 16px;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
