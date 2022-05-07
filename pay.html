@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment</title>
+    <link rel="stylesheet" href="./Productstyle/pay.css">
+    <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="head">
+        <img src="https://supplier.meesho.com/images/logo.svg" alt="">
+    </div>
+
+    <div id="pay">
+        <div id="method">
+            <h3>Payment Method</h3>
+            <div id="cash">
+                <i class="fa-regular fa-money-bill-1 icon "></i> <h3> Cash On Delivery</h3><i
+                class="fa-regular fa-circle-check icon2"></i>
+            </div>
+            <div id="reselling">
+                <h3 id="resell">Reselling the Order?</h3>
+                <button id="no">No</button>
+                <button id="yes">Yes</button>
+                <p>Click on 'Yes' to add Final Price</p>
+                <span id="span">
+                    <hr>
+                    <h3 id="collected">Cash to be Collected</h3>
+                    <input id="input" type="text" placeholder="Order Total + Your Margin">
+                    <hr>
+                    <p id="nomargin"></p>
+                    <p id="margin">Margin : ₹0</p>
+                </span>
+            </div>
+        </div>
+
+        <div id="billing">
+            <div>
+              <h3 id="p">Price Details</h3>
+            <br>
+            <h4 id="Pcharges">Product Charges</h4>
+            <h4 id="item_price">0</h4>
+            <br>
+            <h4 id="Dcharges">Delivery Charges</h4>
+            <h4 id="DchargesNumber">+₹0 </h4>
+            <br>
+            <h4 id="cod">COD Charges</h4>
+            <h4 id="codCharges">+₹0</h4>
+            <br>
+            <h4 id="discount">Discount</h4>
+            <h4 id="discount_amount">-₹50</h4>
+            <br>
+            <hr id="hr1"/>
+            <h3 id="order">Order Total</h3>
+            <h3 id="total_amount">0</h3>
+            </div>
+            
+            <button id="continue">Continue</button>
+
+        </div>
+
+    </div>
+    
+</body>
+
+</html>
+<script src="./Productscript/pay.js"></script>
+

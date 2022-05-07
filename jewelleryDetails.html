@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Productstyle/productdetails.css">
+    <script
+      src="https://kit.fontawesome.com/24c494a6b6.js"
+      crossorigin="anonymous"
+    ></script>
+</head>
+<body>
+    <h1>Product details</h1>
+   
+    <div id="container"></div>
+    <div id="sold">
+      <h3>Sold By</h3>
+      <i id="icon" class="fa-solid fa-store "></i>  <h3>All Rounder Store</h3>
+      <button id="view">View Shop</button>
+      <div id="rate_folow">
+        <div>
+          <h4 id="rate"></h4>
+          <p id="rating_count">1,245 ratings</p>
+        </div>
+        <div>
+          <h4 id="follow_count">116</h4>
+          <p>Followers</p>
+        </div>
+        <div>
+          <h4 id="product_count">85</h4>
+          <p>Products</p>
+        </div>
+  
+  
+      </div>
+  
+    </div>
+  
+
+</body>
+</html>
+<script  type="module">
+let productDetails = JSON.parse(localStorage.getItem("productDetails"))||{};
+
+import { appendJewellery} from "./Productscript/append.js";
+
+let container = document.getElementById("container")
+appendJewellery(productDetails,container)
+
+
+let rating = document.getElementById("rate")
+
+rating.innerText = `${productDetails.rating}*`
+</script>
