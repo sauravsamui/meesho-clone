@@ -1,0 +1,296 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+html {
+font-family: 'Montserrat', sans-serif;
+font-size: 15px;
+}
+.container {
+height: 100vh;
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.open-btn {
+margin-left: 100px;
+font-size: 1rem;
+text-transform: uppercase;
+
+display: inline-block;
+cursor: pointer;
+border: none;
+background-color: white;
+color: #f43397;
+font-weight: bold;
+}
+.popup {
+position: absolute;
+width: 100%;
+height: 100vh;
+display: none;
+justify-content: center;
+align-items: center;
+overflow: hidden;
+/* background-color: aqua; */
+}
+.popup-overlay {
+background-color: rgba(0, 0, 0, 0.575);
+height: 100vh;
+width: 100%;
+position: absolute;
+}
+.main-popup {
+position: absolute;
+right: 0;
+height: 100vh;
+width: 35%;
+z-index: 1;
+background: rgb(255, 255, 255);
+padding: 30px 20px;
+line-height: 1rem;
+display: flex;
+justify-content: center;
+align-items: center;
+transform: translateX(100%);
+}
+.close-btn {
+border: .6px solid white;
+padding: 10px;
+position: absolute;
+top: 1rem;
+right: 1rem;
+font-size: 2rem;
+cursor: pointer;
+transition: .5s ease all;
+}
+.close-btn:hover {
+background: white;
+}
+.popup-content p {
+font-size: 1.5rem;
+line-height: 2rem;
+}
+#btn-gls{
+height: 45px;
+width:520px;
+background-color:#f43397;
+margin-top:10px;
+
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+font-family: 'Merriweather Sans', sans-serif;
+padding: 15px 0px;
+color: white;
+cursor: pointer;
+
+}
+
+@keyframes slide-in {
+0% {
+  transform: translateX(100%);
+}
+100% {
+  transform: translateX(0);
+}
+}
+@keyframes slide-out {
+0% {
+  transform: translateX(0);
+}
+100% {
+  transform: translateX(100%);
+}
+}
+#head{
+    width: 100%;
+   margin-top: -10%;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#head>img{
+    margin-left: 100px;
+    width: 150px;
+}
+#cart{
+  width: 60%;
+  margin: auto;
+  margin-bottom: -1px;
+  margin-top: 50px;
+
+  display: flex;
+}
+#item{
+width: 530px;
+
+
+}
+#c,#item_count{
+  display: inline-block;
+  padding: 5px 10px;
+}
+#c{
+
+  border-right: 1px solid grey;
+}
+#cart_item{
+  width: 500px;
+  height: 150px;
+  margin-left: 10px;
+  margin-top: 15px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  
+}
+#item_details{
+  width: 100%;
+  height: 105px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#item_details+h4{
+  margin-top: 12px;
+  margin-left: 15px;
+}
+#billing{
+
+  width: 280px;
+  height: 460px;
+  margin-left: 5px;
+}
+#billing>div>h4,#billing>div>h3{
+  display: inline-block;
+  margin-top: 15px;
+  color: grey;
+}
+#billing>div>#p{
+  color: black;
+}
+#item_price,#DchargesNumber,#codCharges,#discount_amount,#total_amount{
+  float: right;
+  margin-top: -15px;
+}
+#continue{
+  display: block;
+  margin-top: 30px;
+  padding: 12px 100px;
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: large;
+  border: none;
+  background-color: #f43397;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+#continue+img{
+  margin-top: 30px;
+width:290px;
+height: 130px;
+}
+#billing>div{
+  border-left:1px solid grey;
+  padding-left: 10px;
+}
+#hr1{
+  margin-top: 15px;
+}
+#img{
+  width: 70px;
+  height:70px
+}
+#item_details,#inside_cart{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 28px;
+}
+.item_name,.item_name1{
+  width: 380px;
+ margin-left: 20px;
+  
+}
+.item_name>h4:nth-child(1),.item_name1>h4:nth-child(1){
+  display: inline-block;
+}
+.item_name>h4:nth-child(3),.item_name>h4:nth-child(4){
+  display: inline-block;
+}
+.item_name>h4:nth-child(4){
+margin-left: 30px;
+}
+.item_name1>h4:nth-child(3),.item_name1>h4:nth-child(4){
+  display: inline-block;
+}
+.item_name1>h4:nth-child(4){
+  margin-left: 30px;
+  }
+  .popup-content>h4{
+    margin-top: -150px;
+    margin-left: 30px;
+  }
+  
+#inside_cart{
+  margin-left: 20px;
+  margin-top: 70px;
+  width:500px;
+  height: 100px;
+ 
+}
+.removebtn{
+  display: inline-block;
+cursor: pointer;
+border: none;
+background-color: white;
+color: #f43397;
+font-weight: bold;
+font-size: 1em;
+margin-left: 40px;
+}
+#inside_cart>img{
+  width:100px;
+  height: 100px;
+}
+
+#cart_item1{
+  margin-top: 200px;
+}
+#amount{
+  width: 500px;
+  margin-top: 10px;
+  display: flex;
+  padding: 15px 20px;
+  
+}
+#price{
+  margin-left: 320px;
+}
+#hr2{
+  color: grey;
+  margin-bottom: -50px;
+  margin-top: 30px;
+}
+#hr3{
+  color: grey;
+  margin-top: 25px;
+}
+#hr4{
+  margin-top: 10px;
+  margin-bottom: -300px;
+}
+#hr5{
+  color: grey;
+  margin-top: 500px;
+}
+#input{
+  margin-left: 5px;
+  height: 30px;
+  width:30px;
+  padding-left: 5px;
+
+}

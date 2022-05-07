@@ -1,0 +1,94 @@
+#button{
+    width: 35%;
+    margin:auto;
+    margin-top: 50px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+   
+
+}
+#button>button{
+    cursor: pointer;
+}
+#button>button:nth-child(1){
+    font-size:18px;
+    border: none;
+    background-color: deeppink;
+    color: white;
+    padding: 5px 10px;
+    font-size: medium;
+    border-radius: 20px;
+}
+#button>button:nth-child(2){
+    font-size:18px;
+    border: none;
+    background-color:white;
+    padding: 5px 10px;
+    font-size: medium;
+    border-radius: 20px;
+}
+#button>button:nth-child(3){
+    font-size:18px;
+    border: none;
+    background-color:white;
+    padding: 5px 10px;
+    font-size: medium;
+    border-radius: 20px;
+}
+#button>button:nth-child(4){
+    font-size:18px;
+    border: none;
+    background-color:white;
+    padding: 5px 10px;
+    font-size: medium;
+    border-radius: 20px;
+}
+#button>button:nth-child(5){
+    font-size:18px;
+    border: none;
+    background-color:white;
+    padding: 5px 10px;
+    font-size: medium;
+    border-radius: 20px;
+}
+#button>button:nth-child(6){
+    font-size:18px;
+    border: none;
+    background-color:white;
+    padding: 5px 10px;
+    font-size: medium;
+    border-radius: 20px;
+}
+#button>button:nth-child(7){
+    font-size:18px;
+    border: none;
+    background-color:white;
+    padding: 5px 10px;
+    font-size: medium;
+    border-radius: 20px;
+}
+#button>button:nth-child(8){
+    border: none;
+    font-size:18px;
+    background-color:white;
+    padding: 5px 10px;
+    font-size: medium;
+    border-radius: 20px;
+}
+#button>button:nth-child(9){
+    font-size:18px;
+    border: none;
+    background-color:white;
+    padding: 5px 10px;
+    font-size: medium;
+    border-radius: 20px;
+}
+#button>button:nth-child(10){
+    border: none;
+    color: deeppink;
+    background-color:white;
+    padding: 5px 10px;
+    font-size:18px;
+    border-radius: 20px;
+}

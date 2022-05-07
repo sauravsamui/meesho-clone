@@ -1,0 +1,99 @@
+#head{
+    width: 100%;
+   margin-top: -7px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#head>img{
+    margin-left: 100px;
+    width: 150px;
+}
+#billing{
+
+    width: 280px;
+    height: 460px;
+    margin-left: 5px;
+  }
+  #billing>div>h4,#billing>div>h3{
+    display: inline-block;
+    margin-top: 5px;
+    color: grey;
+  }
+  #billing>div>#p{
+    color: black;
+  }
+  #item_price,#DchargesNumber,#codCharges,#discount_amount,#total_amount{
+    float: right;
+    margin-top: -20px;
+  }
+ 
+  #billing>div{
+    line-height: 10px;
+  }
+  #address_billing{
+   
+    width: 60%;
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    
+  }
+  #billing{
+    padding-top: 30px;
+    margin-left: 30px;
+    box-sizing: border-box;
+    position: sticky;
+     top: 100px;;
+    
+  }
+  #first{
+    border-right: 1px solid grey;
+    padding: 20px;
+  }
+#address{
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+   padding: 10px;
+   width: 500px;
+}
+#billing>div>#order, #billing>div>#total_amount{
+  color: black;
+}
+label{
+  font-size: 23px;
+}
+form>input{
+  margin-top: 10px;
+  height: 30px;
+  width:485px ;
+  border-width:0px;
+  border:none;
+  outline:none;
+  font-size: 17px;
+ 
+}
+form>#continue{
+  display: block;
+  margin-top: 10px;
+  height: 50px;
+  padding: 5px 100px;
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: large;
+  border: none;
+  background-color: #f43397;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+form>select{
+  display: inline-block;
+  height: 30px;
+  margin-top: 15px;
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+  font-size: 17px;
+  margin-left: -0px;
+  color: grey;
+}
+
