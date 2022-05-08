@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+* {
+    /* cursor: default !important; */
+    cursor: pointer;
+}
+#Bigcontainer-gls{
+    height: auto;
+    width: 88%;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 30px;
+}
+#complete-main-box-gls{
+    height: 100%;
+    width: 84%;
+    /* border: 1px solid red; */
+    margin-left: 8%;
+}
+#bigcontainer-gls{
+    display: flex;
+    flex-direction: row;
+    margin: 56px 0px 60px;
+    border-radius: 4px;
+    overflow: hidden;
+    /* border: 1px solid green; */
+    height: 336px;
+    width: 100%;
+
+}
+#text-box-gls{
+height: 100%;
+width: 60%;
+/* border: 1px solid; */
+background-color: #f9f9f9;
+}
+#imgage-gls{
+height: 100%;
+width: 500px;
+/* border: 1px solid skyblue; */
+}
+#text-inner-box{
+    height: 85%;
+    width: 90%;
+    /* border: 1px solid; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top:20px;
+    background-color: #f9f9f9;
+}
+#heading-gls{
+/* border: 1px solid red; */
+height: 40%;
+margin-top: 20px;
+width: 80%;
+}
+#heading-gls>span{
+    font-weight: 700;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 38px;
+    color: #333333;
+    line-height: 50px;
+}
+#crores-box-gls{
+    /* border: 1px solid green; */
+    height: 15%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 10px;
+    width: 90%;
+}
+#crores-box-gls>p{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 7px;
+    text-align: center;
+    line-height: 24px;
+    color: #666666;
+}
+#download-gls{
+    /* border: 1px solid red; */
+    height: 30%;
+    width: 80%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&family=Merriweather+Sans:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&family=Patua+One&family=Secular+One&display=swap');
+#playstore-gls{
+    height: 70%;
+    width: 70%;
+    margin-top: 20px;
+    background-color: #f43397;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Merriweather Sans', sans-serif;
+    display: flex;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+    text-decoration: none;
+}
+#plays-image-gls>img{
+    margin-left: 30px;
+    margin-top: 12px;
+}
+#plays-text-gls{
+    /* border: 1px solid red; */
+    height: 60%;
+    margin-left: 10px;
+    margin-top: 14px;
+}
+#plays-text-gls>div>a{
+    text-decoration: none;
+    color: white;
+}
+
+#top-categories-box{
+/* border: 1px solid skyblue; */
+display: flex;
+width: 100%;
+-webkit-box-pack:justify;
+-webkit-box-align: center;
+align-items: center;
+letter-spacing: 0.7px;
+color: black;
+text-align: center;
+justify-content: space-between;
+margin-top: 80px;
+}
+#top-categories-box>span{
+    font-size: 36px;
+    /* font-family: 'Patua One', cursive; */
+    font-family: 'Secular One', sans-serif;
+    font-weight: 700;
+    line-height: 54px;
+    color: #202024;
+}
+.top-line-gls{
+width: 22%;
+height: 1px;
+background-color: rgb(247,168,202);
+}
+#fashion-container-box{
+    /* margin-top: 90px; */
+    background-image: url(https://images.meesho.com/images/marketing/1651230310749.webp);
+    background-size: 100% 100%;
+    height: 546px;
+    width: 99%;
+    display: flex;
+    margin: 60px 0px 60px;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 20px 24px 22px;
+    border-radius: 4px;
+
+}
+#women-box-gls{
+    width: 400px; 
+     height: 429px;
+    cursor: pointer;
+}
+#other-box-gls{
+    display: flex;
+    height: 100%;
+    align-items: flex-end;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    margin-left: 200px;
+}
+.men-kid-box{
+    margin-left: 15px;
+    cursor: pointer;
+}
+#essentials-gls{
+    display: flex;
+    margin-bottom: 60px;
+    height: 546px;
+    width: 99%;
+    background-image: url(https://images.meesho.com/images/marketing/1651230133301.webp);
+    background-size: 100% 100%;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-inline-end: 0px 24px 0px 28px;
+}
+#essentials-box-gls{
+    width: 589px;
+    height: 288px;
+    margin-right: 30px;
+    position: relative;
+    text-align:center;
+}
+#essentials-box-gls>img{
+    cursor: pointer;
+    width: 220px;
+    height: 68px;
+    margin-top: 100px;
+}
+#other-essen-box-gls{
+    display: flex;
+}
+.essen-box-gls{
+    cursor: pointer;
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    gap: 12px;
+}
+#reseller-box-gls{
+    width: 100%;
+    position: relative;
+    display: flex;
+    height: 560px;
+    /* background-image: url(https://images.meesho.com/images/pow/download_banner_desktop.webp); */
+    border-radius: 4px;
+    overflow: hidden;
+}
+#reseller-box-text-gls{
+    position: absolute;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    padding: 48px;
+    /* border: 1px solid red; */
+}
+.become-text-gls{
+    color: #5585f8;
+    font-weight: 700;
+    font-family:'Merriweather Sans', sans-serif ;
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+.star-text-gls,.with-text-gls{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 52px;
+    color: #f43397;
+}
+#reseller-down-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    margin-top: 52px;
+}
+.btnwrapper{
+    background: rgb(0, 0, 0);
+    border-radius: 4px;
+    margin-left: 12px;
+    padding: 6px 25px;
+    width: 180px;
+    height: 48px;
+}
+.btnwrapper>img{
+    width: 100%;
+}
+#register-box-gls{
+    background-image: url(https://images.meesho.com/images/pow/supply_banner_desktop.webp);
+    background-size: 100% 100%;
+    width: 100%;
+    margin-top: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 4px;
+    height: 350px;
+}
+.content-gls{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 40px 60px;
+    color: white;
+}
+.content-gls .title-gls{
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    font-family: 'Merriweather Sans', sans-serif ;
+}
+.content-gls .sub-title-gls{
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  margin-top: 16px;
+  font-family: 'Merriweather Sans', sans-serif ;
+}
+.grow-box-gls{
+    margin-top: 29px;
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid white; */
+}
+.sup-box-gls>p{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0px;
+    font-family: 'Merriweather Sans', sans-serif ;
+    padding-left: 8px;
+    /* border: 1px solid white; */
+}
+.enjoy-gls{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0px 30px;
+    margin-top: 0px;
+}
+.border-gls{
+    border-right: 1px solid rgb(255, 255, 255);
+}
+.style-btn-gls{
+    display: flex;
+    width: 168px;
+    background:rgb(255, 255, 255);
+    color: rgb(244, 51, 151);
+    border-radius: 4px;
+    padding: 10px 28px;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-family: 'Merriweather Sans', sans-serif ;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 40px;
+    position: absolute;
+    height: 68px;
+    border: 1px solid rgb(255, 0, 0);
+}
+.style-btn-gls>div{
+    height: 100%;
+    width: 80%;
+}
