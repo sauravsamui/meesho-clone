@@ -1,0 +1,147 @@
+
+      #footer{
+          margin: auto;
+          width: 90%;
+          height: auto;
+          background-color: whitesmoke;
+      }
+      #x{
+        background-color: whitesmoke;
+        /* margin-top: 1rem; */
+      }
+
+      #footerContact{
+          display: flex;
+          /* justify-content: space-around; */
+          /* align-items: center; */
+          height: 290px;
+          margin: auto;
+          width:  100%;
+          /* border: 1px solid red; */
+          /* height: 50vh; */
+          /* border-bottom: 1px solid rgb(214, 204, 204); */
+
+          background-color: whitesmoke;
+          padding-bottom: 3px;
+          margin-bottom: 2rem;
+          box-sizing: border-box;
+      }
+      #playGoogleStore{
+          width: 37%;
+          /* border: 1px solid red; */
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+         padding: 2rem;
+
+      }
+      
+      #playGoogleStore>div{
+        display: flex;
+      }
+      #playGoogleStore>div>img{
+        /* width: 180px;
+        height: 70px; */
+        width: 100%;
+        height: 100%;
+        margin-right: .5rem;
+        cursor: pointer;
+      }
+      #careers ,#policy,#socialMedia{
+        /* border: 1px solid red; */
+        width: 15%;
+        /* border: 1px solid red; */
+        height: 60%;
+        font-weight: bolder;
+        font-size: 16px;
+        padding-top: 2rem;
+        color: rgb(153, 146, 146);
+        /* cursor: pointer; */
+      }
+      #careers p ,#policy p,#socialMedia p{
+        cursor: pointer;
+
+      }
+      #socialMedia a{
+        margin: 0 3px 0 3px;
+      }
+
+      #socialMedia {
+        text-align: center;
+      }
+
+      #socialMedia p, #contact>p:nth-child(1)  {
+        color: black;
+        font-size: 20px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+        line-height: 28px;
+        /* border: 1px solid; */
+      }
+
+      #contact>p:nth-child(n+2)
+      {
+        font-size: 12px;
+        /* border:1px solid blue; */
+        padding: 0;
+        margin-bottom: 2px;
+        /* margin: 0px auto 2px auto; */
+      }
+
+      #contact{
+        width: 20%;
+        /* border: 1px solid red; */
+        /* height: 242px; */
+        font-size: 12px;
+        /* line-height: .8rem; */
+        padding-top: 2rem;
+        padding-left: 20px;
+        box-sizing: border-box;
+        /* text-align: center; */
+      }
+
+      /* 2nd footer */
+      #footerSecond{
+        width: 90vw;
+        margin: auto;
+      }
+      #query{
+        width: inherit;
+        height: 50px;
+        background-color: whitesmoke;
+      }
+
+      #footer_img{
+        display: flex;
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: 30px;
+      }
+      #playGoogleStore > p{
+        margin-bottom: 0px;
+      }
+      #playGoogleStore h3{
+        margin-bottom: 30px
+      }
+      #footer_img div{
+        width: 49%;
+        margin-right: 7px;
+        border-radius: 10px;
+        height: 50px;
+        cursor: pointer;
+      }
+
+      #footer_img img{
+        width: 100%;
+        height: 100%;
+      }
+
+      /* .accordion-button{
+        border: 1px solid red;
+      } */
+
+      /* .accordion-header{
+        color: red;
+      } */
