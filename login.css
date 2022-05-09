@@ -1,0 +1,119 @@
+*, ::before, ::after {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#main{
+    position: relative;
+    margin: auto;   
+    border: 1px solid white;
+    height: 900px;
+    width: 100%;
+    background: linear-gradient(rgb(253, 233, 242) 0%, rgb(253, 240, 232) 100%, rgb(253, 240, 232) 100%);
+}
+#logcontainer{
+    /* border: 1px solid black; */
+    background-color: white;
+    width: 40%;
+    height: 600px;
+    margin-left: 35%;
+    /* margin-top: 112px; */
+    margin-bottom: 80px;
+    height: 708px;
+    width: 433px;
+    /* position: relative; */
+    border-radius: 8px;
+}
+/* #navbar{
+    border: 1px solid red;
+     position: sticky;
+    top: 0; 
+}*/
+
+#image{
+    height: 200px;
+    aspect-ratio: auto 433 / 200;
+    width: 433px;
+    /* border-style: none; */
+    border-radius: 8px 8px 0px 0px;
+}
+h6{
+    margin: 50px 0px 0px 40px;
+    color: rgb(51, 51, 51);
+    /* font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px; */
+    /* font-family: "Mier bold" */
+    font-size: 20px;
+    font-weight: bold;
+    font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book"; 
+}
+#ent{
+    height: 40px;
+    width: 330px;
+    /* border-bottom: 1px dashed grey; */
+    margin: 30px 0px 0px 40px;
+    justify-content: space-evenly;
+}
+
+#hr{
+    color: rgb(185, 184, 184);
+    margin-top: 30px;
+}
+#bor{
+    margin-top: 2px;
+    height: 35px;
+    width: 100%;
+    border: none;
+    border-color: white;
+    text-decoration: none;
+    text-align-last: left;
+
+}
+#resend{
+    margin-top: 10px;
+    margin-left: 40px;
+    border: none;
+    color: rgb(244, 51, 151);
+    background-color: white;
+    font-weight: bold;
+    /* font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";  */
+        font-family: Arial, Helvetica, sans-serif;
+}
+#verify{
+    margin-top: 40px;
+    height: 50px;
+    width: 330px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-left: 40px;
+    color: rgb(255, 255, 255);
+    background: rgb(244, 51, 151);
+    font-size: 18px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: bold;
+    font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book"; 
+
+   
+}
+#tc{
+   font-size: 12px;
+   font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book"; 
+     color: grey;
+     text-align: center;
+     margin-top: 160px;
+}
+a{
+    text-decoration: none;
+    color:  rgb(244, 51, 151);
+}
+#ent input{
+    width: 50px;
+    height: 100%;
+    border: none;
+    border-bottom: 1px solid grey;
+    text-decoration: none;
+
+}
