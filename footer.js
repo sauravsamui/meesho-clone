@@ -1,3 +1,4 @@
+// this part is done by AV 
 function footer()
 {
     return `
