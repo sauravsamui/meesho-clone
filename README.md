@@ -18,8 +18,8 @@ Hello Everyone, Its one of the India's largest Ecommerce site MEESHO Clone. Mees
 
 # Team Member
 
-- Avinash Vagh <a href="https://github.com/afzal9632"></a>
-- Saurav Samui <a href="https://github.com/sauravsamui/"></a>
-- MD Afzal <a href="https://github.com/afzal9632"></a>
-- Lalith Sai <a href="https://github.com/lalith9212"></a>
-- Mansi Deshmukh <a href="https://github.com/Mansi-Deshmukh"></a>
+- <a href="https://github.com/afzal9632">Avinash Vagh</a>
+- <a href="https://github.com/sauravsamui/">Saurav Samui</a>
+- l<a href="https://github.com/afzal9632">MD Afza</a>
+- <a href="https://github.com/lalith9212">Lalith Sai</a>
+- <a href="https://github.com/Mansi-Deshmukh">Mansi Deshmukh</a>
